@@ -1,6 +1,4 @@
 import { Link } from 'react-router';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, FreeMode, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
@@ -11,7 +9,7 @@ export default function AppHome() {
 
 
     return (
-        <div className='container-fluid pt-5'>
+        <div className='container-fluid pt-5 container-custom'>
             <div className="row flex justify-content-center">
                 <div className="col-12 mb-5" data-aos="fade-down">
                     <h1 className='text-center fw-bold'>
