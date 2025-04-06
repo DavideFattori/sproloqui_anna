@@ -1,7 +1,7 @@
 @import './constants.css';
 
 body{
-    overflow: hidden !important;
+    overflow-x: hidden !important;
     background-image: url(img/sfondo.png);
     background-size: cover;
     background-position: top;
