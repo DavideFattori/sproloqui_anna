@@ -56,7 +56,7 @@ export default function AppTreno() {
                 </div>
                 {avvisoParole==true ? 
                     <div className="col-12 mb-3">
-                        <h5 className="text-center">Compila tutti i campi</h5>
+                        <h5 className="text-center text-danger">Compila tutti i campi</h5>
                     </div>
                 : null}
                 {mostraStoriaFinita==true ? 
@@ -95,7 +95,7 @@ export default function AppTreno() {
                     </div>
                     :
                     <div className="col-12">
-                        <input type="text" placeholder="numero" onChange={(e) => setParole({...parole, 'numero': e.target.value})} />
+                        <input className="rounded mx-1 mt-1" type="text" placeholder="numero" onChange={(e) => setParole({...parole, 'numero': e.target.value})} />
                         giorni fa dovevo partire per 
                         <input className="rounded mx-1 mt-1" type="text" placeholder="nazione/citta" onChange={(e) => setParole({...parole, 'nazioneCitta': e.target.value})} /> 
                         e la mia macchina era rotta, così decisi di prendere il treno. Non ne avevo mai preso uno in vita mia quindi ero 
