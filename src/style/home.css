@@ -4,7 +4,7 @@
 
 .container-custom{
     min-height: 120vh;
-    overflow: hidden;
+    overflow-x: hidden;
 
     display: flex;
     justify-content: center;
