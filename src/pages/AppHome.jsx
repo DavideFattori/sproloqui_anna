@@ -9,19 +9,19 @@ export default function AppHome() {
 
 
     return (
-        <div className='container-fluid pt-5 container-custom'>
+        <div className='container-fluid container-custom-home'>
             <div className="row flex justify-content-center">
                 <div className="col-12 mb-5" data-aos="fade-down">
                     <h1 className='text-center fw-bold'>
                         Benvenuti in Simpatici Sproloqui
                     </h1>
                 </div>
-                <div className="col-10 mb-5" data-aos="fade-left" data-aos-delay="1000">
+                <div className="col-10 mb-4" data-aos="fade-left" data-aos-delay="1000">
                     <h5 className='text-center'>
                         In questo gioco ci sono delle storie che vanno completate con le parole inserite dai partecipanti!
                     </h5>
                 </div>
-                <div className="col-12 mb-3">
+                <div className="col-12">
                     <h3 className='text-center' data-aos="fade-up" data-aos-delay="2300">
                         Scegli una storia
                     </h3>
