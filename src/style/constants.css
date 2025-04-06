@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://unpkg.com/aos@2.3.1/dist/aos.css');
+
+:root{
+    --main: #14213D;
+    --sec: #E5E5E5;
+    --acc: #FCA311;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+
+/* BACKROUND COLOR */
+.bgMain{
+    background-color: var(--main);
+}
+
+.bgSec{
+    background-color: var(--sec);
+}
+
+.bgAcc{
+    background-color: var(--acc);
+}
+
+
+/* TEXT COLOR */
+.textMain{
+    color: var(--main);
+}
+
+.textSec{
+    color: var(--sec);
+}
+
+.textAcc{
+    color: var(--acc);
+}
+
+/* FONT MONO */
+.notoSansMonoLight{
+    font-family: "Noto Sans Mono", serif;
+    font-weight: 200;
+}
+
+.notoSansMonoRegular{
+    font-family: "Noto Sans Mono", serif;
+    font-weight: 400;
+}
+
+.notoSansMonoBold{
+    font-family: "Noto Sans Mono", serif;
+    font-weight: 700;
+}
+
+.notoSansMonoExtraBold{
+    font-family: "Noto Sans Mono", serif;
+    font-weight: 900;
+}
+
+
+/* FONT */
+.notoSansLight{
+    font-family: "Noto Sans", serif;
+    font-weight: 200;
+}
+
+.notoSansRegular{
+    font-family: "Noto Sans", serif;
+    font-weight: 400;
+}
+
+.notoSansBold{    
+    font-family: "Noto Sans", serif;
+    font-weight: 700;
+}
+
+.notoSansExtraBold{     
+    font-family: "Noto Sans", serif;    
+    font-weight: 900;
+}
+
+/* -------------------------------------------------- */
+
+.backToTop{
+    z-index: 999;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    border: #E5E5E5 1px solid;
+    color: var(--sec);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.linkCustom{
+    text-decoration: underline !important;
+}
+
+.linkCustom:hover{
+    color: var(--acc) !important;
+    transform: translateY(-1px);
+    transition: 0.2s;
+}
+
+.linkUnderline:hover{
+    color: var(--acc) !important;
+    transform: translateY(-1px) scale(1.1);
+    transition: 0.2s;
+}

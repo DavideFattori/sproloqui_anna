@@ -1,0 +1,52 @@
+@import './constants.css';
+
+
+
+nav{
+    color: white;
+    background-color: rgb(16, 16, 16);
+    z-index: 98;
+}
+
+.linkNavbarContainer{
+    width: 50%;
+}
+
+
+.dropdownContent{
+    top: 20px;
+    left: -8px;
+    width: 180%;
+    box-shadow:
+    0px 0px 1.9px rgba(0, 0, 0, 0.114),
+    0px 0px 4.3px rgba(0, 0, 0, 0.164),
+    0px 0px 7.7px rgba(0, 0, 0, 0.202),
+    0px 0px 12.8px rgba(0, 0, 0, 0.238),
+    0px 0px 21.2px rgba(0, 0, 0, 0.276),
+    0px 0px 37px rgba(0, 0, 0, 0.326),
+    0px 0px 80px rgba(0, 0, 0, 0.44);
+    /* transition: 0.2s; */
+    animation-name: showDropdown;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes showDropdown {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .linkNavbarContainer{
+        width: 100%;
+    }
+}

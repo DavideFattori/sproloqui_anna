@@ -1,0 +1,10 @@
+@import './constants.css';
+
+body{
+    overflow: hidden !important;
+    background-image: url(img/sfondo.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+

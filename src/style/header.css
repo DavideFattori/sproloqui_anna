@@ -1,0 +1,28 @@
+@import './constants.css';
+
+header{
+    height: 50vh;
+    background-image: linear-gradient(0deg, rgb(0, 0, 0) 10%, rgba(255,255,255,0) 100%), url(../../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headerTitleContainer{
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.499);
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        height: 25vh;
+    }
+
+    .headerTitleContainer{
+        height: 25vh;
+    }
+
+    .headerTitle{
+        font-size: 1.5rem !important;
+    }
+}
