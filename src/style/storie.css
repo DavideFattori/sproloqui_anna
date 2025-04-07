@@ -18,8 +18,10 @@ input{
 
 .custom-btn{
     background-color: rgb(65, 130, 0);
+    border: none !important;
 }
 
 .custom-btn:hover{
     background-color: rgb(37, 74, 0);
+    border: none !important;
 }
