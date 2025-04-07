@@ -88,7 +88,7 @@ export default function AppTreno() {
                         che stava arrivando, quindi mi 
                         <span className='parole'> {parole.verbo4}</span>
                         . Salii e mi sedetti 
-                        <span className='parole'> {parole.avverbio} </span>
+                        <span className='parole'> {parole.avverbio}</span>
                         . Troppo tardi mi resi conto che il binario a cui ero salita era il 
                         <span className='parole'> {parole.numero4}</span>
                         .

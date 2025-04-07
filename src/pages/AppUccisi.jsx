@@ -132,7 +132,7 @@ export default function AppUccisi() {
                 :
                 <div className="col-12">
                     Mi ricordo di quella volta che uccisi una persona. Era una 
-                    <input className="rounded mx-1 mt-1" type="text" placeholder="numero" onChange={(e) => setParole({...parole, 'aggettivo': e.target.value})} />
+                    <input className="rounded mx-1 mt-1" type="text" placeholder="aggettivo" onChange={(e) => setParole({...parole, 'aggettivo': e.target.value})} />
                     giornata di
                     <input className="rounded mx-1 mt-1" type="text" placeholder="periodoAnno" onChange={(e) => setParole({...parole, 'periodoAnno': e.target.value})} />
                     e stavo 
