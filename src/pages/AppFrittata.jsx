@@ -49,8 +49,8 @@ export default function AppFrittata() {
 
     return (
         <div className="container-fluid container-custom">
-        <div className="row">
-            <div className="col-12 flex justify-content-center mb-5">
+        <div className="row justify-content-center">
+            <div className="col-12 col-md-2 flex justify-content-center mb-5">
                 <Link className="nav-link underline linkCustom text-center" to={'/'}>indietro</Link>
             </div>
             <div className="col-12 mb-3">
@@ -62,7 +62,7 @@ export default function AppFrittata() {
                 </div>
             : null}
             {mostraStoriaFinita==true ? 
-                <div className="col-12 mb-3">
+                <div className="col-12 col-md-6 mb-3">
                     Un 
                     <span className='parole'> {parole.aggettivo} </span>
                     giorno mi venne fame e volli fare una frittata. Aprii il mio frigo 
@@ -100,7 +100,7 @@ export default function AppFrittata() {
                     e non feci più la frittata.
                 </div>
                 :
-                <div className="col-12">
+                <div className="col-12 col-md-6">
                     Un 
                     <input className="rounded mx-1 mt-1" type="text" placeholder="aggettivo" onChange={(e) => setParole({...parole, 'aggettivo': e.target.value})} />
                     giorno mi venne fame e volli fare una frittata. Aprii il mio frigo 

@@ -59,8 +59,8 @@ export default function AppUccisi() {
 
     return (
         <div className="container-fluid container-custom">
-        <div className="row">
-            <div className="col-12 flex justify-content-center mb-5">
+        <div className="row justify-content-center">
+            <div className="col-12 col-md-2 flex justify-content-center mb-5">
                 <Link className="nav-link underline linkCustom text-center" to={'/'}>indietro</Link>
             </div>
             <div className="col-12 mb-3">
@@ -72,7 +72,7 @@ export default function AppUccisi() {
                 </div>
             : null}
             {mostraStoriaFinita==true ? 
-                <div className="col-12 mb-3">
+                <div className="col-12 col-md-6 mb-3">
                     Mi ricordo di quella volta che uccisi una persona. Era una 
                     <span className='parole'> {parole.aggettivo} </span>
                     giornata di
@@ -130,7 +130,7 @@ export default function AppUccisi() {
 
                 </div>
                 :
-                <div className="col-12">
+                <div className="col-12 col-md-6">
                     Mi ricordo di quella volta che uccisi una persona. Era una 
                     <input className="rounded mx-1 mt-1" type="text" placeholder="aggettivo" onChange={(e) => setParole({...parole, 'aggettivo': e.target.value})} />
                     giornata di
