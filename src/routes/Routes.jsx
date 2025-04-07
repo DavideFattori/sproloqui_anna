@@ -7,7 +7,6 @@ import AppNoia from "../pages/AppNoia";
 import AppTg from "../pages/AppTg";
 import AppTreno from "../pages/AppTreno";
 import AppUccisi from "../pages/AppUccisi";
-import AppPulizie from "../pages/AppPulizie";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -19,7 +18,6 @@ const router = createBrowserRouter(
             <Route path="/tg" element={<AppTg />} />
             <Route path="/treno" element={<AppTreno />} />
             <Route path="/uccisi" element={<AppUccisi />} />
-            <Route path="/pulizie" element={<AppPulizie />} />
             <Route path="*" element={<h1>404</h1>} />
         </Route>
     )

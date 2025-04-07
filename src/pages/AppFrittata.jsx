@@ -54,7 +54,7 @@ export default function AppFrittata() {
                 <Link className="nav-link underline linkCustom text-center" to={'/'}>indietro</Link>
             </div>
             <div className="col-12 mb-3">
-                <h1 className="text-center">IL MATRIMONIO</h1>
+                <h1 className="text-center">LA FRITTATA</h1>
             </div>
             {avvisoParole==true ? 
                 <div className="col-12 mb-3">
