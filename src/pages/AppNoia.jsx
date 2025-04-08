@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import '../style/storie.css'
+import { use } from 'react';
 
 export default function AppNoia() {
 
@@ -54,6 +55,8 @@ export default function AppNoia() {
 
 
 
+
+
     return (
         <div className="container-fluid container-custom">
             <div className="row justify-content-center">
@@ -72,7 +75,7 @@ export default function AppNoia() {
                     <div className="col-12 col-md-6 mb-3">
                         Mi ritrovo rinchiusa qui, in questa dannatissima 
                         <span className='parole'> {parole.sostantivo}</span>
-                        . Il tempo sembra non passare, mai le uniche cose che posso fare sono 
+                        . Il tempo sembra non passare, ormai le uniche cose che posso fare sono 
                         <span className='parole'> {parole.verbo} </span>
                         e leggere. Mi manca uscire con i miei amici. Con 
                         <span className='parole'> {parole.nome} </span>
@@ -119,7 +122,7 @@ export default function AppNoia() {
                     <div className="col-12 col-md-6">
                         Mi ritrovo rinchiusa qui, in questa dannatissima 
                         <input className="rounded mx-1 mt-1" type="text" placeholder="sostantivo" onChange={(e) => setParole({...parole, 'sostantivo': e.target.value})} />
-                        . Il tempo sembra non passare, mai le uniche cose che posso fare sono 
+                        . Il tempo sembra non passare, ormai le uniche cose che posso fare sono 
                         <input className="rounded mx-1 mt-1" type="text" placeholder="verbo" onChange={(e) => setParole({...parole, 'verbo': e.target.value})} />
                         e leggere. Mi manca uscire con i miei amici. Con 
                         <input className="rounded mx-1 mt-1" type="text" placeholder="nome" onChange={(e) => setParole({...parole, 'nome': e.target.value})} />
