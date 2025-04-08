@@ -32,7 +32,7 @@ export default function AppHome() {
                     <Link className='nav-link linkCustom mb-2' to={'/uccisi'} data-aos="fade-right" data-aos-delay="2600">Quella volta che uccisi</Link>
                     <Link className='nav-link linkCustom mb-2' to={'/frittata'} data-aos="fade-left" data-aos-delay="2700">La frittata</Link>
                     <Link className='nav-link linkCustom mb-2' to={'/tg'} data-aos="fade-right" data-aos-delay="2800">TG attualità</Link>
-                    <Link className='nav-link linkCustom mb-2' to={'/noia'} data-aos="fade-left" data-aos-delay="2900">La noia</Link>
+                    <Link className='nav-link linkCustom mb-2' to={'/noia'} data-aos="fade-left" data-aos-delay="2900">Noia</Link>
                 </div>
             </div>
         </div>
